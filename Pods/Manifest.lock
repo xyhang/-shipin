@@ -1,0 +1,123 @@
+PODS:
+  - AFgzipRequestSerializer (0.0.2):
+    - AFNetworking (~> 2.0)
+    - Godzippa (~> 1.0)
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking+Ext (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFNetworking+Ext/AFCustomRequestOperation (= 1.2.1)
+    - AFNetworking+Ext/AFDownloadRequestOperation (= 1.2.1)
+    - AFNetworking+Ext/AFTextResponseSerializer (= 1.2.1)
+    - AFNetworking+Ext/Base (= 1.2.1)
+    - AFNetworking+Ext/example (= 1.2.1)
+    - AFNetworking+Ext/UIKit (= 1.2.1)
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/AFCustomRequestOperation (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/AFDownloadRequestOperation (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFNetworking+Ext/AFCustomRequestOperation
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/AFTextResponseSerializer (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/Base (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFNetworking+Ext/AFCustomRequestOperation
+    - AFNetworking+Ext/AFDownloadRequestOperation
+    - AFNetworking+Ext/AFTextResponseSerializer
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/example (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFNetworking+Ext/Base
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/UIKit (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFNetworking+Ext/UIKit/UIImageView+DYLoading (= 1.2.1)
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking+Ext/UIKit/UIImageView+DYLoading (1.2.1):
+    - AFgzipRequestSerializer
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - AFNetworking+Ext/AFDownloadRequestOperation
+    - AFNetworking+Ext/Base
+    - AFOnoResponseSerializer
+    - Godzippa
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOnoResponseSerializer (1.0.0):
+    - AFNetworking (~> 2.2)
+    - Ono (~> 1.0)
+  - Godzippa (1.1.0)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - Ono (1.2.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage-Category (1.4):
+    - SDWebImage
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - AFNetworking+Ext (~> 1.2.1)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.0)
+  - SDWebImage-Category (~> 1.4)
+
+SPEC CHECKSUMS:
+  AFgzipRequestSerializer: 329638fc8ed023a15188dc03dd2f1a930da30ea4
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking+Ext: 7c504815421806b8e7d0a040481ae93129890f65
+  AFOnoResponseSerializer: c02c8bef1d6742ac68f33ecaed41826c9657bc33
+  Godzippa: 21621e8ddc2f1521db473a72b48148c3f0e79d76
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SDWebImage-Category: 1f1c00880a538f7faf5b726e1559cf1ca555c553
+
+COCOAPODS: 0.39.0

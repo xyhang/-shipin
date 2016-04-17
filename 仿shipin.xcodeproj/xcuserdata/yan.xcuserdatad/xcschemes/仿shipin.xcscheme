@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C7FD9921CC262B9002B0064"
+               BuildableName = "&#x4eff;shipin.app"
+               BlueprintName = "&#x4eff;shipin"
+               ReferencedContainer = "container:&#x4eff;shipin.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C7FD9AB1CC262BA002B0064"
+               BuildableName = "&#x4eff;shipinTests.xctest"
+               BlueprintName = "&#x4eff;shipinTests"
+               ReferencedContainer = "container:&#x4eff;shipin.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C7FD9B61CC262BA002B0064"
+               BuildableName = "&#x4eff;shipinUITests.xctest"
+               BlueprintName = "&#x4eff;shipinUITests"
+               ReferencedContainer = "container:&#x4eff;shipin.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2C7FD9921CC262B9002B0064"
+            BuildableName = "&#x4eff;shipin.app"
+            BlueprintName = "&#x4eff;shipin"
+            ReferencedContainer = "container:&#x4eff;shipin.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2C7FD9921CC262B9002B0064"
+            BuildableName = "&#x4eff;shipin.app"
+            BlueprintName = "&#x4eff;shipin"
+            ReferencedContainer = "container:&#x4eff;shipin.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2C7FD9921CC262B9002B0064"
+            BuildableName = "&#x4eff;shipin.app"
+            BlueprintName = "&#x4eff;shipin"
+            ReferencedContainer = "container:&#x4eff;shipin.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
